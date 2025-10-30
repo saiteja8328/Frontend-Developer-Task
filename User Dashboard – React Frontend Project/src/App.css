@@ -1,0 +1,144 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #e3f2fd 0%, #e0f7fa 100%);
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+.app-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.app-title {
+  text-align: center;
+  color: #1565c0;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 25px;
+  letter-spacing: 1px;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 12px 15px;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+  font-size: 1rem;
+  outline: none;
+  transition: all 0.3s ease;
+  margin-bottom: 30px;
+}
+
+.search-bar:focus {
+  box-shadow: 0 6px 15px rgba(21, 101, 192, 0.25);
+  transform: scale(1.02);
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+}
+
+.user-card {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.4s ease;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 250px;
+}
+
+.user-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  border-radius: 0px;
+  border: none;
+  box-shadow: 0 12px 30px rgba(21, 101, 192, 0.25);
+  background: #f8fbff;
+}
+
+.user-name {
+  color: #1565c0;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.user-card p {
+  font-size: 0.9rem;
+  color: #333;
+  margin: 5px 0;
+}
+
+.view-btn {
+  background: linear-gradient(90deg, #1565c0, #42a5f5);
+  color: white;
+  text-decoration: none;
+  padding: 8px 0;
+  text-align: center;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  margin-top: 10px;
+}
+
+.view-btn:hover {
+  background: linear-gradient(90deg, #0d47a1, #2196f3);
+  transform: scale(1.05);
+}
+
+.disabled-btn {
+  background: #e0e0e0;
+  color: #777;
+  padding: 8px 0;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: not-allowed;
+  margin-top: 10px;
+}
+
+.loader,
+.no-results {
+  text-align: center;
+  font-size: 1rem;
+  color: #555;
+  margin-top: 40px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #90caf9;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #42a5f5;
+}
+
+@media (max-width: 768px) {
+  .app-title {
+    font-size: 1.6rem;
+  }
+
+  .search-bar {
+    font-size: 0.9rem;
+  }
+
+  .user-card {
+    min-height: 230px;
+    padding: 15px;
+  }
+}

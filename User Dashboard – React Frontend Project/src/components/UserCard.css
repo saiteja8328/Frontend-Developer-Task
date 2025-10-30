@@ -1,0 +1,53 @@
+.user-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.user-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 18px rgba(33, 150, 243, 0.25);
+}
+
+.user-name {
+  color: #1976d2;
+  margin-bottom: 10px;
+}
+
+.user-card p {
+  font-size: 0.9rem;
+  color: #333;
+  margin: 4px 0;
+}
+
+.view-btn {
+  background: linear-gradient(90deg, #1976d2, #42a5f5);
+  color: white;
+  padding: 8px 0;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.view-btn:hover {
+  background: linear-gradient(90deg, #1565c0, #2196f3);
+  transform: scale(1.05);
+}
+
+.disabled-btn {
+  background: #e0e0e0;
+  color: #777;
+  padding: 8px 0;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: not-allowed;
+}
