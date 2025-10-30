@@ -1,5 +1,5 @@
 import React from "react";
-import "./UserCard.css"; // we’ll create this CSS file
+import "./UserCard.css"; 
 
 function UserCard({ user }) {
   const formatWebsite = (url) => {
@@ -30,3 +30,4 @@ function UserCard({ user }) {
 }
 
 export default UserCard;
+
