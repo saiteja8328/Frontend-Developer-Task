@@ -35,23 +35,16 @@ Soft gradient background, hover animations, and clean typography for a professio
 
 ---
 
-
-
 ## ⚙️ How to Run Locally
-'''
+
+```bash
+# Clone the repository
 git clone https://github.com/your-username/user-dashboard.git
 cd user-dashboard
 
-
+# Install dependencies
 npm install
+
+# Start the development server
 npm start
 
-'''
-
-Then open your browser at 👉 http://localhost:3000
-
-📱 Responsive Design Demo
-Device	View
-💻 Desktop	Cards arranged in multiple columns
-📱 Mobile	Cards stack vertically with adaptive spacing
-🧩 Tablet	Balanced grid layout for medium screens
