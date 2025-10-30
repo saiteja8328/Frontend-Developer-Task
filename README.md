@@ -38,3 +38,28 @@ npm install
 
 # Start the development server
 npm start
+```
+After starting, open your browser and go to: [http://localhost:3000](http://localhost:3000)
+
+---
+
+## Responsive Design Demo
+
+**Desktop:** Cards displayed in multiple columns  
+**Mobile:** Cards stack vertically for easy scrolling  
+**Tablet:** Balanced grid layout for medium screens  
+
+---
+
+## Developer Info
+
+**Name:** Sai Teja Madda  
+**Role:** Frontend Engineer Intern  
+**Technologies:** React.js, JavaScript, HTML, CSS  
+**Goal:** Build a clean, responsive, and functional UI demonstrating React fundamentals and modern design practices.  
+
+---
+
+## Acknowledgement
+
+Data sourced from the [JSONPlaceholder API](https://jsonplaceholder.typicode.com/users) – a free REST API for testing and prototyping.
