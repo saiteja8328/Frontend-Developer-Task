@@ -35,35 +35,18 @@ Soft gradient background, hover animations, and clean typography for a professio
 
 ---
 
-## 🏗️ Project Structure
 
-user-dashboard/
-├── public/
-│ └── index.html
-├── src/
-│ ├── components/
-│ │ ├── UserCard.js
-│ │ └── UserCard.css
-│ ├── App.js
-│ ├── App.css
-│ ├── index.js
-│ └── index.css
-├── package.json
-└── README.md
-
-
----
 
 ## ⚙️ How to Run Locally
-
-### 1️⃣ Clone the Repository
-```bash
+'''
 git clone https://github.com/your-username/user-dashboard.git
 cd user-dashboard
 
 
 npm install
 npm start
+
+'''
 
 Then open your browser at 👉 http://localhost:3000
 
