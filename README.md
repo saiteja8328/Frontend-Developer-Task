@@ -50,33 +50,22 @@ npm start
 
 Then open your browser at 👉 http://localhost:3000
 ```
-📱 Responsive Design Demo
-Device	View
-💻 Desktop	Cards arranged in multiple columns
-📱 Mobile	Cards stack vertically with adaptive spacing
-🧩 Tablet	Balanced grid layout for medium screens
+## 📱 Responsive Design Demo
 
-🧑‍💻 Developer Info
+💻 **Desktop:**  
+Cards arranged in multiple columns  
 
-Developer: Sai Teja
-Role: Frontend Engineer Intern
-Technologies: React.js, JavaScript, HTML, CSS
-Goal: To build a clean, responsive, and functional UI demonstrating React fundamentals and frontend design skills.
+📱 **Mobile:**  
+Cards stack vertically with adaptive spacing  
 
-🌟 Acknowledgement
+🧩 **Tablet:**  
+Balanced grid layout for medium screens  
 
-Data sourced from JSONPlaceholder API
- — a free fake REST API for testing and prototyping.
- 
+---
 
-🏁 Final Notes
+## 👨‍💻 Developer Info
 
-This project fulfills all requirements of a Frontend Developer Test Task, covering:
-
-React component structure & reusability
-
-API integration and dynamic data display
-
-Responsive CSS design
-
-Clean and creative UI implementation
+**Developer:** Sai Teja  
+**Role:** Frontend Engineer Intern  
+**Technologies:** React.js, JavaScript, HTML, CSS  
+**Goal:** To build a clean, responsive, and functional UI demonstrating React fundamentals and frontend design skills.
