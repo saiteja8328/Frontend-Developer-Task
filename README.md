@@ -65,7 +65,7 @@ Balanced grid layout for medium screens
 
 ## 👨‍💻 Developer Info
 
-**Developer:** Sai Teja  
+**Developer:** Sai Teja Madda
 **Role:** Frontend Engineer Intern  
 **Technologies:** React.js, JavaScript, HTML, CSS  
 **Goal:** To build a clean, responsive, and functional UI demonstrating React fundamentals and frontend design skills.
