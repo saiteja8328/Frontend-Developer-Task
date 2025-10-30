@@ -1,41 +1,32 @@
-# 👩‍💻 User Dashboard – React Frontend Project
+# User Dashboard – React Frontend Project
 
-A **responsive single-page React application** that fetches and displays user data from a public API.  
-This project demonstrates clean code structure, dynamic API integration, reusable components, and a modern responsive UI design — all built using **React.js** and **pure CSS (no libraries like Material UI)**.
-
----
-
-## 🚀 Features
-
-✅ **Fetch Users via API**  
-Data is fetched dynamically from `https://jsonplaceholder.typicode.com/users`.
-
-✅ **Search Functionality**  
-Includes a real-time search bar to filter users by name.
-
-✅ **Reusable Components**  
-A dedicated `UserCard` component displays user details like name, email, phone, and city.
-
-✅ **Responsive Design**  
-Grid layout automatically adjusts for mobile, tablet, and desktop screen sizes.
-
-✅ **Attractive UI/UX**  
-Soft gradient background, hover animations, and clean typography for a professional look.
+A responsive single-page React application that fetches and displays user data from a public API.  
+This project demonstrates clean code structure, reusable components, API integration, and a modern responsive UI — all built using React.js and pure CSS.
 
 ---
 
-## 🧠 Tech Stack
+## Features
+
+- Fetch Users via API – Retrieves user data from https://jsonplaceholder.typicode.com/users  
+- Search Functionality – Real-time search bar to filter users by name  
+- Reusable Components – Uses a dedicated UserCard component for user details  
+- Responsive Design – Adapts automatically for desktop, tablet, and mobile screens  
+- Clean UI/UX – Gradient background, hover effects, and simple modern styling
+
+---
+
+## Tech Stack
 
 | Area | Tools |
 |------|-------|
 | Frontend Framework | React.js |
-| Styling | Pure CSS (custom) |
+| Styling | Pure CSS |
 | API Used | JSONPlaceholder |
 | Language | JavaScript (ES6+) |
 
 ---
 
-## ⚙️ How to Run Locally
+## How to Run Locally
 
 ```bash
 # Clone the repository
@@ -47,25 +38,3 @@ npm install
 
 # Start the development server
 npm start
-
-Then open your browser at 👉 http://localhost:3000
-```
-## 📱 Responsive Design Demo
-
-💻 **Desktop:**  
-Cards arranged in multiple columns  
-
-📱 **Mobile:**  
-Cards stack vertically with adaptive spacing  
-
-🧩 **Tablet:**  
-Balanced grid layout for medium screens  
-
----
-
-## 👨‍💻 Developer Info
-
-**Developer:** Sai Teja Madda
-**Role:** Frontend Engineer Intern  
-**Technologies:** React.js, JavaScript, HTML, CSS  
-**Goal:** To build a clean, responsive, and functional UI demonstrating React fundamentals and frontend design skills.
